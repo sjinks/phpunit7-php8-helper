@@ -1,0 +1,23 @@
+{
+    "name": "wildwolf/phpunit7-php8-helper",
+    "description": "A helper for PHPUnit 7 to generate code coverage under PHP 8",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Volodymyr Kolesnykov",
+            "email": "volodymyr@wildwolf.name"
+        }
+    ],
+    "require": {
+        "phpunit/php-token-stream": "^3"
+    },
+    "autoload": {
+        "classmap": [
+            "src/"
+        ]
+    },
+    "config": {
+        "sort-packages": true,
+        "optimize-autoloader": true
+    }
+}
